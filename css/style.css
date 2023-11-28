@@ -1,0 +1,213 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:system-ui;
+}
+.sub_container{
+    width: 100%;
+    height: 135vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.imgSection{
+    width: 48%;
+    height: 137vh;
+    background-color:#c7c7f1;;
+    padding: 30px 12px;
+
+}
+.dexSection{
+    width: 48%;
+    height: 137vh;
+    background-color: whitesmoke;
+    padding: 30px 12px;
+}
+
+.imgSelect img{
+    width:50px;
+    height:50px;
+    padding: 5px;
+}
+.shoImg img{
+    width: 200px;
+    height: 376px;
+    background-color:#c7c7f1;
+}
+.foot{
+    top: 737px;
+    width: 95%;
+    margin: 0 auto;
+    height: 79px;
+    border: 1 px solid;
+    background-color: white;
+    position: relative;
+    border-radius: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.smImg{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.smImg img{
+    width:50px;
+    height:34px;
+
+}
+
+.adCrt{
+    width: 51%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.name{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.imgBor{
+    border:3px solid #c7c7f1;
+    border-radius: 10px;
+}
+.mesr{
+    width:250px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 42px;
+}
+.quan{
+    width:50px;
+   background-color: rgba(221, 221, 239, 0.759);
+   border-radius: 4px;
+}
+.quan:hover{
+    background-color: rgb(111, 111, 228);
+    color:white
+}
+.count{
+    width:100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.less{
+    width: 26px;
+    height: 32px;
+    border: 3px solid rgb(111, 111, 228);
+    border-radius: 3px;
+    text-align: center;
+}
+.add{
+    width: 26px;
+    height: 32px;
+    border: 3px solid rgb(111, 111, 228);
+    border-radius: 3px;
+    text-align: center;
+}
+.addCount{
+    width: 37px;
+    height: 42px;
+    border: 3px solid rgb(193, 193, 205);
+    border-radius: 8px;
+    text-align: center;
+    padding: 7px;
+}
+.btn{
+    width:120px;
+    height:30px;
+    border:none;
+    background-color:  rgb(111, 111, 228);
+    color:white;
+    border-radius: 10px;
+}
+
+@media(min-width:760px){
+
+
+    .shoImg img{
+        width: 385px;
+        height: 625px;
+        background-color:#c7c7f1;
+    }
+    .sub_container{
+        height: 123vh;
+    }
+    .imgSection{
+       height:123vh;
+    }
+
+    .dexSection{
+        height:123vh;   
+    }
+    .foot{
+        top:681px;
+    }
+}
+
+
+@media(min-width:1024px){
+    .sub_container{
+        height: 164vh;
+    }
+    
+    .imgSection{
+        width:50%;
+        height: 164vh;
+    }
+    .shoImg img{
+        width: 588px;
+    height: 650px;
+        background-color:#c7c7f1;
+    }
+    .dexSection{
+        width:50%;
+        height: 164vh;
+        padding: 40px ;
+        margin:0 auto;
+    }
+    .imgSelect{
+        width:400px;
+        height:100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    
+    
+
+    .Description li{
+        padding: 4px 38px;
+    }
+    .dexSection span{
+        line-height: 12px;
+    }
+    .mesr{
+        width:400px;
+        height:70px;
+       
+    }
+    .quan{
+        width:70px;
+        padding:5px;
+    }
+    .ingredians li{
+        padding: 4px 38px;
+    }
+    .foot{
+        top:830px;
+    }
+}
